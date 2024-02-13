@@ -1,0 +1,53 @@
+
+/* ? Grid */
+
+/* .container{
+    margin: 20px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.contact{
+    background-color: blue;
+    display: grid;
+    grid-column: (1fr, 3fr);
+} */
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.contact{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+
+.pictures{
+    display: flex;
+    gap: 10px;
+}
+
+.car{
+    width: 200px;
+    height: 130px;
+}
